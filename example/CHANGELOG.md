@@ -1,5 +1,2 @@
-## What’s changed
-
-## ⬆️ Dependency updates
-
-- ⬆️ Added Example repository
+# Changelog since v0.0.3
+- 📚 Update add-on documentation 
