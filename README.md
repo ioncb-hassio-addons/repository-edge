@@ -22,7 +22,7 @@ This repository was created for:
 
 If you are more interested in stable releases of our add-ons:
 
-<https://github.com/ioncb-hassio-addons/repository>
+<https://github.com/hassio-addons/repository>
 
 ## Installation
 
@@ -69,6 +69,16 @@ on the correct GitHub repository matching the add-on.
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
+## Contributing
+
+This is an active open-source project. We are always open to people who want to
+use the code or contribute to it.
+
+We have set up a separate document containing our
+[contribution guidelines](.github/CONTRIBUTING.md).
+
+Thank you for being involved! :heart_eyes:
+
 ## Adding a new add-on
 
 We are currently not accepting third party add-ons to this repository.
@@ -110,9 +120,9 @@ SOFTWARE.
 [example-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [example-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [example-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [jhoncb]: https://github.com/jhoncb
 [issue]: https://github.com/ioncb-hassio-addons/repository-edge/issues
 [license-shield]: https://img.shields.io/github/license/ioncb-hassio-addons/repository-edge.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [semver]: http://semver.org/spec/v2.0.0.html
