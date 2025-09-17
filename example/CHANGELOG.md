@@ -1,2 +1,2 @@
-# Changelog since v0.0.3
-- 📚 Update add-on documentation 
+# Changelog since v0.0.4
+- 📚 Update add-on slug 
