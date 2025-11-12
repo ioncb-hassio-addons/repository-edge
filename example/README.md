@@ -42,5 +42,5 @@ If you are more interested in stable releases of our add-ons:
 
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-c477459-blue.svg
-[release]: https://github.com/ioncb-hassio-addons/addon-example/tree/c477459
+[release-shield]: https://img.shields.io/badge/version-3a5b687-blue.svg
+[release]: https://github.com/ioncb-hassio-addons/addon-example/tree/3a5b687
