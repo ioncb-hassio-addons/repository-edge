@@ -1,42 +1,36 @@
-# EDGE - IonCB Home Assistant Add-ons
+# IonCB Home Assistant Apps
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
 
+## About
 
-## WARNING! THIS IS AN EDGE REPOSITORY
+Home Assistant allows anyone to create app repositories to share their
+apps for Home Assistant easily. This repository is one of those repositories,
+providing extra Home Assistant apps for your installation.
 
-This Home Assistant Add-ons repository contains edge builds of add-ons. Edge
-builds add-ons are based upon the latest development version.
-
-- They may not work at all.
-- They might stop working at any time.
-- They could have a negative impact on your system.
-
-This repository was created for:
-
-- Anybody willing to test.
-- Anybody interested in trying out upcoming add-ons or add-on features.
-- Developers.
-
-If you are more interested in stable releases of our add-ons:
-
-<https://github.com/hassio-addons/repository>
+The primary goal of this project is to provide you (as a Home Assistant user)
+with additional, high quality, apps that allow you to take your automated
+home to the next level.
 
 ## Installation
 
-Adding this add-ons repository to your Home Assistant instance is
-pretty straightforward. In the Home Assistant add-on store,
-a possibility to add a repository is provided.
+In general, there is no need to install this repository on your
+Home Assistant instance. It is activated and added by Home Assistant
+by default.
+
+However, if the repository is missing on your setup, adding this apps
+repository to your Home Assistant instance is pretty easy. In the
+Home Assistant app store, a possibility to add a repository is provided.
 
 Use the following URL to add this repository:
 
 ```txt
-https://github.com/ioncb-hassio-addons/repository-edge
+https://github.com/ioncb-hassio-addons/repository
 ```
 
-## Add-ons provided by this repository
+## Apps provided by this repository
 
 ### &#10003; [Example][addon-example]
 
@@ -47,27 +41,27 @@ https://github.com/ioncb-hassio-addons/repository-edge
 ![Supports amd64 Architecture][example-amd64-shield]
 ![Supports i386 Architecture][example-i386-shield]
 
-Example add-on by Community Home Assistant Add-ons
+Example app by Community Home Assistant Apps
 
-[:books: Example add-on documentation][addon-doc-example]
+[:books: Example app documentation][addon-doc-example]
 
 ## Releases
 
-Add-on releases are **NOT** based on [Semantic Versioning][semver], unlike
+App releases are **NOT** based on [Semantic Versioning][semver], unlike
 all our other repositories. The latest build commit SHA hash of each
-add-on, represents the version number.
+app, represents the version number.
 
 ## Support
 
 Got questions?
 
 You could also open an issue here on GitHub. Note, we use a separate
-GitHub repository for each add-on. Please ensure you are creating the issue
-on the correct GitHub repository matching the add-on.
+GitHub repository for each app. Please ensure you are creating the issue
+on the correct GitHub repository matching the app.
 
-- [Open an issue for the add-on: Example][example-issue]
+- [Open an issue for the app: Example][example-issue]
 
-For a general repository issue or add-on ideas [open an issue here][issue]
+For a general repository issue or app ideas [open an issue here][issue]
 
 ## Contributing
 
@@ -79,19 +73,19 @@ We have set up a separate document containing our
 
 Thank you for being involved! :heart_eyes:
 
-## Adding a new add-on
+## Adding a new app
 
-We are currently not accepting third party add-ons to this repository.
+We are currently not accepting third party apps to this repository.
 
 For questions, please contact [Jhon Coronel][jhoncb]:
 
-- Drop him an email: dev.jhon.pe@gmail.com
+- Drop him an email: jcoronel@ioncb.com
 
 ## License
 
 MIT License
 
-Copyright (c) 2025 Jhon Coronel
+Copyright (c) 2026 Jhon Coronel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -111,9 +105,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-example]: https://github.com/ioncb-hassio-addons/addon-example/tree/v0.0.9
-[addon-doc-example]: https://github.com/ioncb-hassio-addons/addon-example/blob/v0.0.9/README.md
-[example-issue]: https://github.com/ioncb-hassio-addons/addon-example/issues
+[addon-example]: https://github.com/ioncb-hassio-addons/app-example/tree/v0.0.9
+[addon-doc-example]: https://github.com/ioncb-hassio-addons/app-example/blob/v0.0.9/README.md
+[example-issue]: https://github.com/ioncb-hassio-addons/app-example/issues
 [example-version-shield]: https://img.shields.io/badge/version-v0.0.9-blue.svg
 [example-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [example-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -123,6 +117,6 @@ SOFTWARE.
 [jhoncb]: https://github.com/jhoncb
 [issue]: https://github.com/ioncb-hassio-addons/repository-edge/issues
 [license-shield]: https://img.shields.io/github/license/ioncb-hassio-addons/repository-edge.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [semver]: http://semver.org/spec/v2.0.0.html
