@@ -1,33 +1,38 @@
-# IonCB Home Assistant Apps
+# EDGE - IonCB Home Assistant Apps
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
 
-## About
+## WARNING! THIS IS AN EDGE REPOSITORY
 
-Home Assistant allows anyone to create app repositories to share their
-apps for Home Assistant easily. This repository is one of those repositories,
-providing extra Home Assistant apps for your installation.
+This Home Assistant Add-ons repository contains edge builds of add-ons. Edge
+builds add-ons are based upon the latest development version.
 
-The primary goal of this project is to provide you (as a Home Assistant user)
-with additional, high quality, apps that allow you to take your automated
-home to the next level.
+- They may not work at all.
+- They might stop working at any time.
+- They could have a negative impact on your system.
+
+This repository was created for:
+
+- Anybody willing to test.
+- Anybody interested in trying out upcoming add-ons or add-on features.
+- Developers.
+
+If you are more interested in stable releases of our add-ons:
+
+<https://github.com/hassio-addons/repository>
 
 ## Installation
 
-In general, there is no need to install this repository on your
-Home Assistant instance. It is activated and added by Home Assistant
-by default.
-
-However, if the repository is missing on your setup, adding this apps
-repository to your Home Assistant instance is pretty easy. In the
-Home Assistant app store, a possibility to add a repository is provided.
+Adding this apps repository to your Home Assistant instance is 
+pretty easy. In the Home Assistant app store,
+a possibility to add a repository is provided.
 
 Use the following URL to add this repository:
 
 ```txt
-https://github.com/ioncb-hassio-addons/repository
+https://github.com/ioncb-hassio-addons/repository-edge
 ```
 
 ## Apps provided by this repository
@@ -41,7 +46,7 @@ https://github.com/ioncb-hassio-addons/repository
 ![Supports amd64 Architecture][example-amd64-shield]
 ![Supports i386 Architecture][example-i386-shield]
 
-Example app by Community Home Assistant Apps
+Example app by Home Assistant Community Apps
 
 [:books: Example app documentation][addon-doc-example]
 
@@ -61,7 +66,7 @@ on the correct GitHub repository matching the app.
 
 - [Open an issue for the app: Example][example-issue]
 
-For a general repository issue or app ideas [open an issue here][issue]
+For a general repository issue or add-on ideas [open an issue here][issue]
 
 ## Contributing
 
