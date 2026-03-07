@@ -1,4 +1,13 @@
 # Changelog since v0.0.12
+- ⬆️ Update docker/build-push-action action to v7 (#30)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update docker/setup-buildx-action action to v4 (#29)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update docker/login-action action to v4 (#28)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update actions/dependency-review-action action to v4.9.0 (#27)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
