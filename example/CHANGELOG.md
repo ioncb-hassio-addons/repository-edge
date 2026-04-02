@@ -1,4 +1,7 @@
 # Changelog since v0.0.13
+- ⬆️ Update docker/login-action action to v4.1.0 (#35)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v20.0.2 (#34)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 

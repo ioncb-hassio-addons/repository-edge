@@ -46,5 +46,5 @@ If you are more interested in stable releases of our apps:
 [github-sponsors]: https://github.com/sponsors/jhoncb
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[release-shield]: https://img.shields.io/badge/version-70d401b-blue.svg
-[release]: https://github.com/ioncb-hassio-addons/app-example/tree/70d401b
+[release-shield]: https://img.shields.io/badge/version-c5f7623-blue.svg
+[release]: https://github.com/ioncb-hassio-addons/app-example/tree/c5f7623
