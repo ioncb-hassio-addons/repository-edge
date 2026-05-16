@@ -1,4 +1,7 @@
 # Changelog since v0.0.13
+- ⬆️ Update zizmorcore/zizmor-action action to v0.5.4 (#43)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update EndBug/add-and-commit action to v10 (#32)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
