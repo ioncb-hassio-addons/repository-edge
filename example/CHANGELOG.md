@@ -1,4 +1,7 @@
 # Changelog since v0.0.13
+- ⬆️ Update docker/login-action action to v4.2.0 (#46)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update actions/dependency-review-action action to v5 (#42)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
