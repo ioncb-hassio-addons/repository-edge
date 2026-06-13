@@ -1,4 +1,7 @@
 # Changelog since v0.0.13
+- ⬆️ Update Add-on base image to v20.2.0 (#49)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update actions/checkout action to v6.0.3 (#48)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
