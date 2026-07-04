@@ -1,4 +1,10 @@
 # Changelog since v0.0.13
+- ⬆️ Update docker/build-push-action action to v7.3.0 (#54)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update zizmorcore/zizmor-action action to v0.5.7 (#53)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update Add-on base image to v20.2.0 (#49)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
