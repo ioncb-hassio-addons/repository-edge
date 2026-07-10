@@ -1,4 +1,10 @@
 # Changelog since v0.0.13
+- ⬆️ Update docker/setup-buildx-action action to v4.2.0 (#56)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update docker/login-action action to v4.4.0 (#55)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update docker/build-push-action action to v7.3.0 (#54)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
