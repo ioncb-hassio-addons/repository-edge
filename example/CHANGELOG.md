@@ -1,4 +1,7 @@
 # Changelog since v0.0.13
+- ⬆️ Update actions/checkout action to v6.1.0 (#58)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update zizmorcore/zizmor-action action to v0.6.0 (#57)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
