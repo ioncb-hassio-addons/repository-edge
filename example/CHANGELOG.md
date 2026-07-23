@@ -1,4 +1,7 @@
 # Changelog since v0.0.13
+- ⬆️ Update docker/login-action action to v4.5.0 (#59)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update actions/checkout action to v6.1.0 (#58)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
