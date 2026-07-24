@@ -1,4 +1,7 @@
 # Changelog since v0.0.13
+- ⬆️ Update zizmorcore/zizmor-action action to v0.6.1 (#60)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update docker/login-action action to v4.5.0 (#59)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
