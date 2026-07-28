@@ -1,4 +1,7 @@
 # Changelog since v0.0.13
+- ⬆️ Update docker/login-action action to v4.5.2 (#62)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update docker/login-action action to v4.5.1 (#61)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
