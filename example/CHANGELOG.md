@@ -1,4 +1,7 @@
 # Changelog since v0.0.13
+- ⬆️ Update docker/setup-buildx-action action to v4.3.0 (#67)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update frenck/action-addon-linter action to v2.21.1 (#66)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
