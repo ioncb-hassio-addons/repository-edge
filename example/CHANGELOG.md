@@ -1,4 +1,7 @@
 # Changelog since v0.0.13
+- ⬆️ Update docker/setup-buildx-action action to v4.4.1 (#73)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update docker/setup-buildx-action action to v4.4.0 (#72)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
