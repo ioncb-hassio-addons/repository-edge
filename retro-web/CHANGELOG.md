@@ -1,3 +1,3 @@
-- docs: add Home Assistant installation button
+- ⬆️ Update express to v5.3.0 (#1)
 
-Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
