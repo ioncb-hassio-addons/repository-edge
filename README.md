@@ -6,8 +6,8 @@
 
 ## WARNING! THIS IS AN EDGE REPOSITORY
 
-This Home Assistant Add-ons repository contains edge builds of add-ons. Edge
-builds add-ons are based upon the latest development version.
+This Home Assistant Apps repository contains edge builds of apps. Edge builds
+are based upon the latest development version.
 
 - They may not work at all.
 - They might stop working at any time.
@@ -16,17 +16,17 @@ builds add-ons are based upon the latest development version.
 This repository was created for:
 
 - Anybody willing to test.
-- Anybody interested in trying out upcoming add-ons or add-on features.
+- Anybody interested in trying out upcoming apps or app features.
 - Developers.
 
-If you are more interested in stable releases of our add-ons:
+If you are more interested in stable releases of our apps:
 
-<https://github.com/hassio-addons/repository>
+<https://github.com/ioncb-hassio-addons/repository>
 
 ## Installation
 
-Adding this apps repository to your Home Assistant instance is 
-pretty easy. In the Home Assistant app store,
+Adding this apps repository to your Home Assistant instance is
+pretty straightforward. In the Home Assistant app store,
 a possibility to add a repository is provided.
 
 Use the following URL to add this repository:
@@ -40,11 +40,6 @@ https://github.com/ioncb-hassio-addons/repository-edge
 ### &#10003; [Example][addon-example]
 
 ![Latest Version][example-version-shield]
-![Supports armhf Architecture][example-armhf-shield]
-![Supports armv7 Architecture][example-armv7-shield]
-![Supports aarch64 Architecture][example-aarch64-shield]
-![Supports amd64 Architecture][example-amd64-shield]
-![Supports i386 Architecture][example-i386-shield]
 
 Example app by Home Assistant Community Apps
 
@@ -66,7 +61,7 @@ on the correct GitHub repository matching the app.
 
 - [Open an issue for the app: Example][example-issue]
 
-For a general repository issue or add-on ideas [open an issue here][issue]
+For a general repository issue or app ideas [open an issue here][issue]
 
 ## Contributing
 
@@ -114,11 +109,6 @@ SOFTWARE.
 [addon-doc-example]: https://github.com/ioncb-hassio-addons/app-example/blob/fecd948/README.md
 [example-issue]: https://github.com/ioncb-hassio-addons/app-example/issues
 [example-version-shield]: https://img.shields.io/badge/version-fecd948-blue.svg
-[example-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[example-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[example-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[example-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[example-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [jhoncb]: https://github.com/jhoncb
 [issue]: https://github.com/ioncb-hassio-addons/repository-edge/issues
 [license-shield]: https://img.shields.io/github/license/ioncb-hassio-addons/repository-edge.svg
