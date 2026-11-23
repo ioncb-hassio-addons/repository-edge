@@ -1,4 +1,7 @@
 # Changelog since v0.0.13
+- ⬆️: migrate Renovate config (#82)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - refactor: migrate app workflows to Home Assistant Apps (#85)
 
 Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com> 
