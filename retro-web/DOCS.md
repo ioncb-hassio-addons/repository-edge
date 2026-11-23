@@ -9,8 +9,11 @@ profiles, and saves remain under `/data`.
 The installation of this app is pretty straightforward and not different in
 comparison to installing any other Home Assistant app.
 
-1. Add the IonCB Apps repository to Home Assistant.
-1. Search for the "Retro Web" app.
+1. Click the Home Assistant My button below to open the app on your Home
+   Assistant instance.
+
+   [![Open this app in your Home Assistant instance.][addon-badge]][addon]
+
 1. Click the "Install" button to install the app.
 1. Start the "Retro Web" app.
 1. Open Retro Web from the Home Assistant sidebar.
@@ -222,6 +225,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=4dd71ed5_retro-web&repository_url=https%3A%2F%2Fgithub.com%2Fioncb-hassio-addons%2Frepository
 [contributors]: https://github.com/ioncb-hassio-addons/app-retro-web/graphs/contributors
 [issue]: https://github.com/ioncb-hassio-addons/app-retro-web/issues
 [jhoncb]: https://github.com/jhoncb
