@@ -1,0 +1,32 @@
+---
+configuration:
+  log_level:
+    name: Log level
+    description: Amount of logging produced by the app.
+  external_access:
+    name: External access
+    description: Enable the authenticated external web listener.
+  external_username:
+    name: External username
+    description: Username required to use the external listener.
+  external_password:
+    name: External password
+    description: Password required to use the external listener.
+  allow_external_rom_upload:
+    name: Allow external ROM uploads
+    description: Enable administrator uploads outside Home Assistant Ingress.
+  external_admin_password:
+    name: External administrator password
+    description: Separate password required to enter external administration.
+  session_timeout_hours:
+    name: Session timeout
+    description: Lifetime of an external session in hours.
+  max_upload_mb:
+    name: Maximum upload size
+    description: Maximum ROM or BIOS upload size in megabytes.
+  profile_limit:
+    name: Profile limit
+    description: Maximum number of local player profiles.
+  enable_arcade:
+    name: Arcade support
+    description: Allow FinalBurn Neo Arcade ROM uploads.

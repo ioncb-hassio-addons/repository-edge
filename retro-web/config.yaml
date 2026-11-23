@@ -1,0 +1,39 @@
+name: Retro Web
+version: 469ef3e
+slug: retro-web
+description: Profile-based retro game library with server-side saves
+url: https://github.com/ioncb-hassio-addons/app-retro-web
+init: false
+ingress: true
+panel_icon: mdi:gamepad-variant
+panel_title: Retro Web
+arch:
+- aarch64
+- amd64
+ports:
+  8098/tcp: null
+ports_description:
+  8098/tcp: Optional external web access
+options:
+  log_level: info
+  external_access: false
+  external_username: ''
+  external_password: ''
+  allow_external_rom_upload: false
+  external_admin_password: ''
+  session_timeout_hours: 12
+  max_upload_mb: 4096
+  profile_limit: 8
+  enable_arcade: true
+schema:
+  log_level: list(trace|debug|info|notice|warning|error|fatal)
+  external_access: bool
+  external_username: str
+  external_password: password
+  allow_external_rom_upload: bool
+  external_admin_password: password
+  session_timeout_hours: int(1,168)
+  max_upload_mb: int(16,16384)
+  profile_limit: int(1,20)
+  enable_arcade: bool
+image: ghcr.io/ioncb-hassio-addons/retro-web
