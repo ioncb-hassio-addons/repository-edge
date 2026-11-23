@@ -1,4 +1,34 @@
 # Changelog since v0.0.13
+- refactor: migrate app workflows to Home Assistant Apps (#85)
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com> 
+- ⬆️ Update docker/login-action action to v4.8.0 (#80)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update zizmorcore/zizmor-action action to v0.8.1 (#77)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update frenck/action-addon-linter action to v2.21.2 (#81)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21.0.11 (#78)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update zizmorcore/zizmor-action action to v0.7.0 (#76)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update hassio-addons/workflows action to v4 (#68)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update EndBug/add-and-commit action to v11 (#65)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update actions/checkout action to v7 (#52)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v21 (#50)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - ⬆️ Update docker/setup-buildx-action action to v4.4.1 (#73)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
