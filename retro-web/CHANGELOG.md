@@ -1,3 +1,1 @@
-- fix: chunk save synchronization through ingress
-
-Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+- style(retro-web): format TLS implementation

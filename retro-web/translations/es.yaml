@@ -30,3 +30,18 @@ configuration:
   enable_arcade:
     name: Compatibilidad con Arcade
     description: Permite cargar ROMs Arcade para FinalBurn Neo.
+  ssl:
+    name: Usar certificados de Home Assistant
+    description: Cuando está habilitado, usa certfile y keyfile desde /ssl. Cuando está deshabilitado, el puerto 8098 usa un certificado autofirmado persistente.
+  certfile:
+    name: Archivo de certificado
+    description: Nombre del certificado dentro de /ssl, por ejemplo fullchain.pem.
+  keyfile:
+    name: Archivo de clave privada
+    description: Nombre de la clave privada dentro de /ssl, por ejemplo privkey.pem.
+  tls_self_signed_days:
+    name: Duración del certificado autofirmado
+    description: Duración en días del certificado generado automáticamente.
+  tls_self_signed_common_name:
+    name: Nombre del certificado autofirmado
+    description: Nombre común opcional del certificado. Por defecto usa retro-web.local.
