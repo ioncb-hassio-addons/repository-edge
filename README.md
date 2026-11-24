@@ -118,10 +118,10 @@ SOFTWARE.
 [addon-doc-example]: https://github.com/ioncb-hassio-addons/app-example/blob/84f9ca5/README.md
 [example-issue]: https://github.com/ioncb-hassio-addons/app-example/issues
 [example-version-shield]: https://img.shields.io/badge/version-84f9ca5-blue.svg
-[addon-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/tree/8ac87f7
-[addon-doc-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/blob/8ac87f7/README.md
+[addon-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/tree/8ffdf00
+[addon-doc-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/blob/8ffdf00/README.md
 [retro-web-issue]: https://github.com/ioncb-hassio-addons/app-retro-web/issues
-[retro-web-version-shield]: https://img.shields.io/badge/version-8ac87f7-blue.svg
+[retro-web-version-shield]: https://img.shields.io/badge/version-8ffdf00-blue.svg
 [jhoncb]: https://github.com/jhoncb
 [issue]: https://github.com/ioncb-hassio-addons/repository-edge/issues
 [license-shield]: https://img.shields.io/github/license/ioncb-hassio-addons/repository-edge.svg
