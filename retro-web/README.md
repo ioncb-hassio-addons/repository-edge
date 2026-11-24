@@ -24,7 +24,7 @@ changes. Use the stable repository for normal installations.
 Retro Web does not contain or distribute ROMs or BIOS files. Only use media
 that you are legally authorized to copy and emulate.
 
-[release-shield]: https://img.shields.io/badge/version-512174f-blue.svg
-[release]: https://github.com/ioncb-hassio-addons/app-retro-web/tree/512174f
+[release-shield]: https://img.shields.io/badge/version-39dbd7f-blue.svg
+[release]: https://github.com/ioncb-hassio-addons/app-retro-web/tree/39dbd7f
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-orange.svg
