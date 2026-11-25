@@ -1,1 +1,1 @@
-- feat(retro-web): log TLS certificate mode
+- feat(retro-web): preserve arcade archive names and add project memory (#5)
