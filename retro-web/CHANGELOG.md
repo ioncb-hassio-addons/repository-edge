@@ -1,1 +1,1 @@
-- refactor(retro-web): split i18n dictionaries by language (#10)
+- fix(retro-web): reject save states before emulator start (#11)
