@@ -58,8 +58,8 @@ Retro Web logs use the Home Assistant timestamp format:
 
 ```text
 [14:13:47] INFO: Retro Web listening on ingress port 8099
-[14:13:47] WARNING: Indexación ya está en ejecución
-[14:13:47] ERROR: Indexación fallida durationMs=123 errorFiles=1
+[14:13:47] WARNING: Indexing is already running
+[14:13:47] ERROR: Indexing failed durationMs=123 errorFiles=1
 ```
 
 The index worker reports start, ROM and BIOS phases, new, changed and deleted
