@@ -1,3 +1,1 @@
-- feat(retro-web): add indexer, state lifecycle, and library categories
-
-Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
+- fix(retro-web): confirm save only after emulator starts (#7)
