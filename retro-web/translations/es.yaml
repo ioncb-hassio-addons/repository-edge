@@ -45,3 +45,9 @@ configuration:
   tls_self_signed_common_name:
     name: Nombre del certificado autofirmado
     description: Nombre común opcional del certificado. Por defecto usa retro-web.local.
+  rom_index_interval_minutes:
+    name: Intervalo de indexación de ROM
+    description: Intervalo en minutos para escanear automáticamente las carpetas ROM y BIOS.
+  enable_cover_indexing:
+    name: Búsqueda automática de carátulas
+    description: Busca en bases de datos y miniaturas de Libretro para los juegos indexados.

@@ -37,6 +37,8 @@ session_timeout_hours: 12
 max_upload_mb: 4096
 profile_limit: 8
 enable_arcade: true
+rom_index_interval_minutes: 60
+enable_cover_indexing: true
 ```
 
 ### Option: `log_level`
@@ -51,6 +53,18 @@ Controls the level of log output. Possible values are:
 - `fatal`: Show fatal errors that make the app unusable.
 
 The default and recommended level is `info`.
+
+Retro Web logs use the Home Assistant timestamp format:
+
+```text
+[14:13:47] INFO: Retro Web listening on ingress port 8099
+[14:13:47] WARNING: Indexación ya está en ejecución
+[14:13:47] ERROR: Indexación fallida durationMs=123 errorFiles=1
+```
+
+The index worker reports start, ROM and BIOS phases, new, changed and deleted
+files, cover lookup, completion, and failures. At `debug` or `trace` level it
+also reports platform and per-cover progress.
 
 ### Option: `external_access`
 
@@ -89,6 +103,15 @@ Maximum number of local player profiles. Accepted range: `1` to `20`.
 
 Enables uploading Arcade ROMs to FinalBurn Neo.
 
+### Option: `rom_index_interval_minutes`
+
+Interval in minutes for automatic ROM and BIOS folder scanning. Accepted range:
+`1` to `1440`. The default is `60`.
+
+### Option: `enable_cover_indexing`
+
+Enables automatic cover lookup from Libretro DAT and Thumbnail sources.
+
 ## First start
 
 1. Open **Retro Web** from the Home Assistant sidebar.
@@ -118,6 +141,46 @@ content by SHA-256 hash and stores an editable display title separately.
 
 Selecting a ROM generates the title from its filename. The generated title
 remains editable before upload.
+
+## Manual ROM and BIOS folders
+
+Administrators can place files directly below `/data`:
+
+```text
+/data/roms/<platform>/<file>
+/data/bios/<platform>/<file>
+```
+
+The platform folder name selects the EmulatorJS core mapping in
+`app/platforms.js`. For example:
+
+```text
+/data/roms/n64/Zelda OoT.z64
+/data/bios/arcade/neogeo.zip
+```
+
+Use **Reindexar ahora** in the administration screen or wait for the automatic
+interval. The index stores SHA-1, CRC32, size, modification time, version, and
+deletion state. Files are only hashed again when size or modification time
+changes.
+
+## Index endpoints
+
+Administrative users can inspect or start indexing:
+
+| Method | Route                     | Response                                                |
+| ------ | ------------------------- | ------------------------------------------------------- |
+| `GET`  | `/api/admin/index/status` | Running state and latest execution details              |
+| `POST` | `/api/admin/index/run`    | `200` with the latest execution, or `409` while running |
+
+In external mode these routes require an elevated external administration
+session. In Ingress mode they are available to the local administrator.
+
+## Progress endpoint
+
+`POST /api/games/:gameId/progress` marks a game as recently played for the
+active profile. It requires the active Ingress or external profile session and
+returns `204` on success.
 
 ## Covers
 

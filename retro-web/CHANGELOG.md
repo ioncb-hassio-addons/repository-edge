@@ -1,1 +1,3 @@
-- feat(retro-web): preserve arcade archive names and add project memory (#5)
+- Feature/retro web arcade context (#6)
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
