@@ -1,1 +1,1 @@
-- docs(workflow): define post-merge branch lifecycle (#9)
+- refactor(retro-web): split i18n dictionaries by language (#10)
