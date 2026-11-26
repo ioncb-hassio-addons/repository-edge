@@ -114,10 +114,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-example]: https://github.com/ioncb-hassio-addons/app-example/tree/b328cce
-[addon-doc-example]: https://github.com/ioncb-hassio-addons/app-example/blob/b328cce/README.md
+[addon-example]: https://github.com/ioncb-hassio-addons/app-example/tree/83f3923
+[addon-doc-example]: https://github.com/ioncb-hassio-addons/app-example/blob/83f3923/README.md
 [example-issue]: https://github.com/ioncb-hassio-addons/app-example/issues
-[example-version-shield]: https://img.shields.io/badge/version-b328cce-blue.svg
+[example-version-shield]: https://img.shields.io/badge/version-83f3923-blue.svg
 [addon-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/tree/6e2c4f5
 [addon-doc-retro-web]: https://github.com/ioncb-hassio-addons/app-retro-web/blob/6e2c4f5/README.md
 [retro-web-issue]: https://github.com/ioncb-hassio-addons/app-retro-web/issues
